@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا - نبلاء التقنية</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>   ساحة النبلاء</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="distributions.html">القطع</a></li>
+                    <li><a href="drivers.html">المعلومات العامة</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="content.html"></a>تصل بناا</a></li>
+                    <li><a href="chat.html">المحادثة</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>اتصل بنا</h1>
+    </header>
+
+    <main>
+        <form action="submit_contact.php" method="post">
+            <label for="name">الاسم الكامل:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">البريد الإلكتروني:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">رسالتك:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">إرسال</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 نبلاء التقنية. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
